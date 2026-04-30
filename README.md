@@ -24,11 +24,13 @@ It’s recommended not to run Bench as root.
 sudo adduser frappe_user
 sudo usermod -aG sudo frappe_user
 su frappe_user
+
 cd /home/frappe_user
 
 You can also use your existing user; just replace frappe_user with your username.
 
 ##Step 3: Install Dependencies
+
 ```bash
 sudo apt install -y git python3-dev python3-setuptools python3-pip \
 python3.14-venv software-properties-common curl build-essential \
