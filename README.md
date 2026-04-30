@@ -13,11 +13,13 @@
 
 
 ## Step 1: Update
+
 ```bash
 sudo apt update -y && sudo apt upgrade -y
 
 ## Step 2: Create a Frappe Userr
 It’s recommended not to run Bench as root.
+
 ```bash
 sudo adduser frappe_user
 sudo usermod -aG sudo frappe_user
