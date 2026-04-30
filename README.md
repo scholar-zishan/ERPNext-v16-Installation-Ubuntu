@@ -10,11 +10,13 @@
 6. redis 6+
 7. mariadb 11.8
 
+
+
 ## Step 1: Update
 ```bash
 sudo apt update -y && sudo apt upgrade -y
 
-##Step 2: Create a Frappe Userr
+## Step 2: Create a Frappe Userr
 It’s recommended not to run Bench as root.
 ```bash
 sudo adduser frappe_user
