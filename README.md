@@ -1,6 +1,4 @@
-
-
-## Frappe & ERPNext v16 Installation Ubuntu 25
+## Frappe & ERPNext v16 Installation Ubuntu
 
 ## Prerequisites
 
